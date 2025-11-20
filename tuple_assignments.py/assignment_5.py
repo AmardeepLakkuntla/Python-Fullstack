@@ -1,0 +1,6 @@
+animals=("dog","cat","elephant","lion","tiger")
+animals_list=list(animals)
+animals_list.remove("elephant")
+animals_list.append("cheetah")
+animals_tuple=tuple(animals_list)
+print(animals_tuple)

@@ -1,0 +1,9 @@
+# check if a number is divisible 
+
+num = int(input("Enter a number: "))
+divisible=int(input("enter a number to divide: "))
+
+if num % divisible == 0:
+    print(f"Divisible by {divisible}")
+else:
+    print(f"Not divisible by {divisible}")
